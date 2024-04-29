@@ -1,19 +1,25 @@
-console.log("Digite o nome do seu herói")
-let nickname = "Pedrinho "
+//Desafio Classificador de nível de Herói
 
-let level = ["Ferro " , "Bronze " , "Prata " , "Ouro" , "Platina " , "Ascendente" , "Imortal" , "Radiante"]
-const XP = 2742
-const limiteInferior = 0;
-const limiteSuperior = 1001;
+console.log("Digite o nome do seu herói")
+
+let nickname = "Felipe "
+
+console.log("Agora vamos descobrir o nível do seu herói!")
+
+
+const XP = 6000
 
 if ( XP < 1001) 
     console.log("O Herói de nome " + nickname + "está no nível de Ferro");
 
-else if ( XP < 2001) 
+
+  
+    else if ( XP < 2001) 
     console.log("O Herói de nome " + nickname + "está no nível de Bronze");
     
 else if ( XP < 3001) 
     console.log("O Herói de nome " + nickname + "está no nível de Prata");
+    
 
 else if ( XP < 4001) 
     console.log("O Herói de nome " + nickname + "está no nível de Ouro");
@@ -27,6 +33,8 @@ else if ( XP < 5001)
    else if ( XP < 7001) 
     console.log("O Herói de nome " + nickname + "está no nível de Imortal");
 
-else if ( XP < 7001) 
+else if ( XP > 7001) 
     console.log("O Herói de nome " + nickname + "está no nível de Radiante");
     
+
+console.log("Obrigado por checar o nível do seu herói!")
